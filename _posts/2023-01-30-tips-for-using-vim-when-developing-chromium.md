@@ -2,8 +2,8 @@
 layout: post
 title: Tips for using Vim when developing Chromium
 category:
-- Chromium
-- Tips
+- dev
+- chromium
 tags:
 - chromium
 - vim
