@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   chromium, c++, opensource, free software, igalia
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://duswnchl.github.io"
+permalink: /posts/:title/
 
 # Build settings
 remote_theme: riggraz/no-style-please
