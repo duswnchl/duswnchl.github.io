@@ -27,6 +27,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://duswnchl.github.io"
 permalink: /posts/:title/
 
+favicon: "assets/favicon.ico"
+
 # Build settings
 remote_theme: riggraz/no-style-please
 plugins:
