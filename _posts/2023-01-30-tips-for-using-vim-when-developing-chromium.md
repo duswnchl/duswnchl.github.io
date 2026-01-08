@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-comments
 title: Tips for using Vim when developing Chromium
 category:
 - dev
