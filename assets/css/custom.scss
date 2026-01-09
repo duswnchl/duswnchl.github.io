@@ -1,0 +1,35 @@
+// Solarized light
+@mixin solarized-light-appearance {
+  background-color: #fdf6e3; // base3
+  color: #657b83;            // base00
+
+  a { color: #268bd2; }      // blue
+  a:hover { color: #2aa198; }// cyan
+
+  pre, code {
+    background-color: #eee8d5; // base2
+    color: #586e75;            // base01
+  }
+}
+
+// Solarized dark
+@mixin solarized-dark-appearance {
+  background-color: #002b36; // base03
+  color: #839496;            // base0
+
+  a { color: #268bd2; }
+  a:hover { color: #2aa198; }
+
+  pre, code {
+    background-color: #073642; // base02
+    color: #93a1a1;            // base1
+  }
+}
+
+body[a="solarized-light"] {
+  @include solarized-light-appearance;
+}
+
+body[a="solarized-dark"] {
+  @include solarized-dark-appearance;
+}
