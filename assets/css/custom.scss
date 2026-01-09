@@ -5,11 +5,6 @@
 
   a { color: #268bd2; }      // blue
   a:hover { color: #2aa198; }// cyan
-
-  pre, code {
-    background-color: #eee8d5; // base2
-    color: #586e75;            // base01
-  }
 }
 
 // Solarized dark
@@ -19,11 +14,17 @@
 
   a { color: #268bd2; }
   a:hover { color: #2aa198; }
+}
 
-  pre, code {
-    background-color: #073642; // base02
-    color: #93a1a1;            // base1
-  }
+code {
+  color: white;
+  background-color: #6e6a62;
+}
+
+div.highlighter-rouge code {
+  background-color: #383530;
+  white-space: pre;
+  overflow-x: auto;
 }
 
 body[a="solarized-light"] {
