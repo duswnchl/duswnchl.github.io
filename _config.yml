@@ -22,7 +22,7 @@ title: this, that and more
 author: Yeunjoo Choi
 email: duswnchl@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  chromium, c++, opensource, free software, igalia
+  mostly dev stuff, sometimes life
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://duswnchl.github.io"
 permalink: /posts/:title/
