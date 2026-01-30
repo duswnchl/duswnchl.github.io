@@ -34,3 +34,9 @@ body[a="solarized-light"] {
 body[a="solarized-dark"] {
   @include solarized-dark-appearance;
 }
+
+.w {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 4rem 2rem; /* keep existing padding or tweak */
+}

@@ -1,24 +1,28 @@
 entries:
-  - title: info
+  - title: 👤 info
     entries:
       - title: mostly dev stuff, sometimes life.
       - title: about me
         url: about
 
-  - title: all posts
-    post_list:
-      limit: 3
-      show_more: true
-      show_more_text: ls -a
-      show_more_url: archive
-
-  - title: posts by dev
+  - title: 💻 dev
     post_list:
       category: dev
-      limit: 3
+      limit: 5
       show_more: true
       show_more_text: ls dev
       show_more_url: archive-dev
 
-  - title: rss
+  - title: 💡 tils
+    post_list:
+      category: til
+      limit: 5
+      show_more: true
+      show_more_text: ls tils
+      show_more_url: archive-dev
+
+  - title: 📚 all posts
+    url: archive
+
+  - title: 🛜 rss
     url: feed.xml
