@@ -15,12 +15,15 @@ quite a bit time debugging until I found the following line in logs:
 ```
 01-21 11:58:19.051 27926 27926 E cr_ChromiumWebauthn: com.google.android.gms.common.api.ApiException: 17: API: Fido.FIDO2_PRIVILEGED_API is not available on this device. Connection failed with: ConnectionResult{statusCode=RESTRICTED_PROFILE, resolution=null, message=null, clientMethodKey=null}
 ```
-Yes, that was it! As explained in [the official documentation][1], web browsers
-are considered priviliged apps that need to handle credentials stored in
-third-party applications. The browser must be a trusted app by Google Password
-Manger to manage user credentials for external services.
+Yes, that was it! As explained in [the official documentation][1],
+> For privileged apps such as web browsers that need to handle third party
+> credentials, Google Password Manager requires approval to handle those
+> credentials. This ensures that only trusted apps are able to access and manage
+> user credentials for external services.
 
 So, how do we get this approval? No worries -- You can find the request form in
-the [the official documentation][1].
+the above official document.
+> To be approved for handling third party credentials, complete the request form
+> to open a ticket and have your request reviewed.
 
 [1]: https://developer.android.com/identity/sign-in/privileged-apps
