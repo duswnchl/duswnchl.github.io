@@ -13,12 +13,12 @@ entries:
       show_more_text: ls dev
       show_more_url: archive-dev
 
-  - title: 💡 tils
+  - title: 💡 did you know
     post_list:
-      category: til
+      category: dyk
       limit: 5
       show_more: true
-      show_more_text: ls tils
+      show_more_text: ls dyk
       show_more_url: archive-dev
 
   - title: 📚 all posts

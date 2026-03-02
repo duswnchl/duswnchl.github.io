@@ -2,7 +2,7 @@
 layout: post-with-comments
 title: Your Chromium browser needs approval for Google Password Manager
 category:
-- til
+- dyk
 tags:
 - chromium
 date: 2026-01-30 20:57 +0900
