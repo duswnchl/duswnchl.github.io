@@ -6,6 +6,7 @@ category:
 tags:
 - chromium
 - igalia-planet
+date: 2026-03-10 12:06 +0900
 ---
 GN Language Server for Chromium development was announced on [chromium-dev][1].
 It's very easy to install in VSCode, NeoVim or Emacs. But how can we configure
