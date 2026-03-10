@@ -5,6 +5,7 @@ category:
 - dyk
 tags:
 - chromium
+- igalia-planet
 ---
 GN Language Server for Chromium development was announced on [chromium-dev][1].
 It's very easy to install in VSCode, NeoVim or Emacs. But how can we configure
