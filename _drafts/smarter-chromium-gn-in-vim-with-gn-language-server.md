@@ -8,7 +8,7 @@ tags:
 ---
 GN Language Server for Chromium development was announced on [chromium-dev][1].
 It's very easy to install in VSCode, NeoVim or Emacs. But how can we configure
-it with classic Vim + YCM?
+it with classic Vim + [YCM][2]?
 
 ## Setup
 
@@ -53,4 +53,5 @@ When I try to go to the definition of `template`, I get an error `KeyError:
 needs further investigation.
 ![go_def_error]({% asset_path go_def_error.gif %})
 
-[1]: https://groups.google.com/a/chromium.org/g/chromium-dev/c/uTa5mrlvbvw
+[1]: https://groups.google.com/a/chromium.org/g/chromium-dev/c/uTa5mrlvbvw/m/vTVpKZPVDwAJ
+[2]: https://github.com/ycm-core/YouCompleteMe
